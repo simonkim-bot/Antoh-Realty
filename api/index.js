@@ -7,7 +7,7 @@ import listingRouter from './routes/listing.route.js';
 import cookieParser from 'cookie-parser';
 import path from 'path';
 dotenv.config();
-
+//mongodb+srv://anthorkim:Kimkidong22@&&@antohrealty.lv86p8l.mongodb.net/antohrealty?retryWrites=true&w=majority&appName=antohrealty
 mongoose
   .connect(process.env.MONGO)
   .then(() => {
